@@ -13,12 +13,40 @@
 			"author": "Scirra",
 			"version": "r317.2",
 			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Button",
+			"name": "Botón",
+			"author": "Scirra",
+			"version": "r317.2",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Text",
+			"name": "Texto",
+			"author": "Scirra",
+			"version": "r317.2",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Sprite",
+			"name": "Sprite",
+			"author": "Scirra",
+			"version": "r317.2",
+			"bundled": false
 		}
 	],
 	"uniqueId": "90eg6najmlq",
 	"objectTypes": {
 		"items": [
-			"FondoEnMosaico2"
+			"FondoEnMosaico2",
+			"Botón",
+			"Texto",
+			"Texto2",
+			"Sprite"
 		],
 		"subfolders": []
 	},

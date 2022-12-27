@@ -44,9 +44,16 @@
 		"items": [
 			"FondoEnMosaico2",
 			"Botón",
-			"Texto",
-			"Texto2",
-			"Sprite"
+			"NIVEL1",
+			"Empezar",
+			"Sprite",
+			"FondoEnMosaico",
+			"Descripción",
+			"2Bits",
+			"Tabla1",
+			"Teoría",
+			"Sprite2",
+			"Sprite3"
 		],
 		"subfolders": []
 	},
@@ -58,13 +65,15 @@
 	},
 	"layouts": {
 		"items": [
-			"Escena 1"
+			"Escena 1",
+			"Escena 2"
 		],
 		"subfolders": []
 	},
 	"eventSheets": {
 		"items": [
-			"Hoja de eventos 1"
+			"Hoja de eventos 1",
+			"Hoja de eventos 2"
 		],
 		"subfolders": []
 	},

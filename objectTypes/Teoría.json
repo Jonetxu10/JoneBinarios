@@ -1,0 +1,57 @@
+{
+	"name": "Teoría",
+	"plugin-id": "Sprite",
+	"sid": 527248970430196,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 960,
+						"height": 720,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"imageSpriteId": 3348119,
+						"collisionPoly": {
+							"points": [
+								0.31145833333333334,
+								0.4152777777777778,
+								0.5,
+								0.4166666666666667,
+								0.6854166666666667,
+								0.41805555555555557,
+								0.7916666666666666,
+								0.5,
+								0.7333333333333333,
+								0.6444444444444445,
+								0.5,
+								0.675,
+								0.296875,
+								0.6027777777777777,
+								0.21770833333333334,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 544748288710747,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

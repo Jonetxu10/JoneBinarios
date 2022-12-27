@@ -1,0 +1,57 @@
+{
+	"name": "Tabla1",
+	"plugin-id": "Sprite",
+	"sid": 580507975696585,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 960,
+						"height": 720,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"imageSpriteId": 8975372,
+						"collisionPoly": {
+							"points": [
+								0.20208333333333334,
+								0.26944444444444443,
+								0.5,
+								0.26944444444444443,
+								0.796875,
+								0.26944444444444443,
+								0.9052083333333333,
+								0.5,
+								0.796875,
+								0.7291666666666666,
+								0.5,
+								0.7291666666666666,
+								0.20208333333333334,
+								0.7291666666666666,
+								0.09375,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 566254897229060,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

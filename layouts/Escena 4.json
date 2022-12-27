@@ -1,5 +1,5 @@
 {
-	"name": "Escena 2",
+	"name": "Escena 4",
 	"layers": [
 		{
 			"name": "Capa 0",
@@ -19,7 +19,7 @@
 						"image-scale-y": 1,
 						"image-angle": 0
 					},
-					"uid": 7,
+					"uid": 22,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
@@ -48,7 +48,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 8,
+					"uid": 23,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
@@ -90,7 +90,7 @@
 						"initially-visible": true,
 						"origin": "top-left"
 					},
-					"uid": 9,
+					"uid": 24,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
@@ -132,7 +132,7 @@
 						"initially-visible": true,
 						"origin": "top-left"
 					},
-					"uid": 10,
+					"uid": 25,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
@@ -161,7 +161,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 11,
+					"uid": 26,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
@@ -182,7 +182,7 @@
 					}
 				},
 				{
-					"type": "Sprite3",
+					"type": "Tabla1",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -190,14 +190,14 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 12,
+					"uid": 27,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 346,
-						"y": 195,
-						"width": 434,
-						"height": 247,
+						"x": 537,
+						"y": 698,
+						"width": 939,
+						"height": 750,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -211,55 +211,123 @@
 					}
 				},
 				{
-					"type": "MapaDeTeselas",
+					"type": "Teoría",
 					"properties": {
 						"initially-visible": true,
-						"tile-width": 32,
-						"tile-height": 32,
-						"tile-x-offset": 0,
-						"tile-y-offset": 0,
-						"tile-x-spacing": 0,
-						"tile-y-spacing": 0,
-						"tile-x-drawing-offset": 0,
-						"tile-y-drawing-offset": 0,
-						"drawing-mode": "top-to-right"
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
 					},
-					"uid": 14,
+					"uid": 28,
 					"instanceVariables": {},
 					"behaviors": {},
-					"ownData": {
-						"tilemapData": {
-							"width": 120,
-							"height": 67,
-							"max-width": 120,
-							"max-height": 67,
-							"data": "8040x0"
-						},
-						"tile-width": 32,
-						"tile-height": 32,
-						"tile-x-offset": 0,
-						"tile-y-offset": 0,
-						"tile-x-spacing": 0,
-						"tile-y-spacing": 0
-					},
 					"world": {
-						"x": 0,
-						"y": 0,
-						"width": 3840,
-						"height": 2160,
-						"originX": 0,
-						"originY": 0,
+						"x": 345,
+						"y": 194,
+						"width": 461,
+						"height": 289,
+						"originX": 0.5,
+						"originY": 0.5,
 						"color": [
 							1,
 							1,
 							1,
 							1
 						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Sprite2",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 29,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 514,
+						"y": 637.5,
+						"width": 1326,
+						"height": 856,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "EJ1",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 30,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 1007,
+						"y": 679,
+						"width": 1770,
+						"height": 1139,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Sprite4",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 31,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 1723,
+						"y": 185,
+						"width": 591,
+						"height": 473,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
 						"zElevation": 0
 					}
 				}
 			],
-			"sid": 380108168836952,
+			"sid": 377806886684348,
 			"effectTypes": [],
 			"isInitiallyVisible": true,
 			"isInitiallyInteractive": true,
@@ -288,7 +356,7 @@
 			"global": false
 		}
 	],
-	"sid": 728675799897206,
+	"sid": 844197039433592,
 	"nonworld-instances": [],
 	"effectTypes": [],
 	"width": 3840,

@@ -37,6 +37,22 @@
 			"author": "Scirra",
 			"version": "r317.2",
 			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Mouse",
+			"name": "Mouse",
+			"author": "Scirra",
+			"version": "r317.2",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Tilemap",
+			"name": "Mapa de teselas",
+			"author": "Scirra",
+			"version": "r317.2",
+			"bundled": false
 		}
 	],
 	"uniqueId": "90eg6najmlq",
@@ -53,7 +69,11 @@
 			"Tabla1",
 			"Teoría",
 			"Sprite2",
-			"Sprite3"
+			"EJ1",
+			"Sprite4",
+			"Sprite3",
+			"Mouse",
+			"MapaDeTeselas"
 		],
 		"subfolders": []
 	},
@@ -66,7 +86,9 @@
 	"layouts": {
 		"items": [
 			"Escena 1",
-			"Escena 2"
+			"Escena 4",
+			"Escena 2",
+			"Escena 3"
 		],
 		"subfolders": []
 	},

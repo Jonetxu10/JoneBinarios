@@ -45,14 +45,6 @@
 			"author": "Scirra",
 			"version": "r317.2",
 			"bundled": false
-		},
-		{
-			"type": "plugin",
-			"id": "Tilemap",
-			"name": "Mapa de teselas",
-			"author": "Scirra",
-			"version": "r317.2",
-			"bundled": false
 		}
 	],
 	"uniqueId": "90eg6najmlq",
@@ -73,7 +65,8 @@
 			"Sprite4",
 			"Sprite3",
 			"Mouse",
-			"MapaDeTeselas"
+			"Sprite5",
+			"Sprite6"
 		],
 		"subfolders": []
 	},

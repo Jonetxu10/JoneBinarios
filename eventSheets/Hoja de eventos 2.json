@@ -1,5 +1,33 @@
 {
 	"name": "Hoja de eventos 2",
-	"events": [],
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-clicked",
+					"objectClass": "Botón2",
+					"sid": 216293065779878
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-nextprevious-layout",
+					"objectClass": "System",
+					"sid": 184855756848756,
+					"parameters": {
+						"which": "next"
+					}
+				}
+			],
+			"sid": 362086416032066
+		},
+		{
+			"eventType": "block",
+			"conditions": [],
+			"actions": [],
+			"sid": 280429319461495
+		}
+	],
 	"sid": 982486593362046
 }

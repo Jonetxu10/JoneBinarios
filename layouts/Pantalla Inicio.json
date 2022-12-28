@@ -43,7 +43,7 @@
 					"type": "Botón",
 					"properties": {
 						"type": "button",
-						"text": "",
+						"text": "EMPEZAR",
 						"tooltip": "",
 						"initially-visible": true,
 						"enabled": true,
@@ -71,48 +71,6 @@
 					}
 				},
 				{
-					"type": "Empezar",
-					"properties": {
-						"text": "EMPEZAR",
-						"enable-bbcode": true,
-						"font": "Arial",
-						"size": 50,
-						"line-height": 0,
-						"bold": false,
-						"italic": false,
-						"color": [
-							0.32941176470588235,
-							0.8627450980392157,
-							0.9725490196078431,
-							1
-						],
-						"horizontal-alignment": "center",
-						"vertical-alignment": "center",
-						"wrapping": "word",
-						"initially-visible": true,
-						"origin": "top-left"
-					},
-					"uid": 5,
-					"instanceVariables": {},
-					"behaviors": {},
-					"world": {
-						"x": 779,
-						"y": 702,
-						"width": 345,
-						"height": 77,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
 					"type": "Sprite",
 					"properties": {
 						"initially-visible": true,
@@ -137,7 +95,7 @@
 							0.34901960784313724,
 							1
 						],
-						"angle": 0,
+						"angle": 6.280222219865122,
 						"zElevation": 0
 					}
 				},

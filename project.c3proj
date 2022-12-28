@@ -45,6 +45,14 @@
 			"author": "Scirra",
 			"version": "r317.2",
 			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "TextBox",
+			"name": "Entrada de texto",
+			"author": "Scirra",
+			"version": "r317.2",
+			"bundled": false
 		}
 	],
 	"uniqueId": "90eg6najmlq",
@@ -71,7 +79,19 @@
 			"Sprite9",
 			"Sprite10",
 			"Sprite11",
-			"Botón2"
+			"Botón2",
+			"Botón3",
+			"Botón4",
+			"EntradaDeTexto",
+			"EntradaDeTexto2",
+			"EntradaDeTexto3",
+			"EntradaDeTexto4",
+			"Sprite12",
+			"Sprite13",
+			"Sprite14",
+			"Sprite15",
+			"Aciertos",
+			"NumAciertos"
 		],
 		"subfolders": []
 	},
@@ -98,7 +118,8 @@
 	"eventSheets": {
 		"items": [
 			"Hoja de eventos 1",
-			"Hoja de eventos 2"
+			"Hoja de eventos 2",
+			"EventosPráctica1"
 		],
 		"subfolders": []
 	},

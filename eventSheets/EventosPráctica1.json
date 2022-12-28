@@ -1,0 +1,131 @@
+{
+	"name": "EventosPráctica1",
+	"events": [
+		{
+			"eventType": "variable",
+			"name": "Aciertos1",
+			"type": "number",
+			"initialValue": "0",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 771932500634486
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "every-tick",
+					"objectClass": "System",
+					"sid": 873069871919324
+				}
+			],
+			"actions": [
+				{
+					"id": "set-text",
+					"objectClass": "NumAciertos",
+					"sid": 504827910864387,
+					"parameters": {
+						"text": "Aciertos1"
+					}
+				}
+			],
+			"sid": 590722041866302
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-text",
+					"objectClass": "EntradaDeTexto",
+					"sid": 253282398381413,
+					"parameters": {
+						"text": "\"00\"",
+						"case": "case-insensitive"
+					}
+				},
+				{
+					"id": "trigger-once-while-true",
+					"objectClass": "System",
+					"sid": 656189774413596
+				}
+			],
+			"actions": [
+				{
+					"id": "add-to-eventvar",
+					"objectClass": "System",
+					"sid": 689839103388395,
+					"parameters": {
+						"variable": "Aciertos1",
+						"value": "1"
+					}
+				},
+				{
+					"id": "set-enabled",
+					"objectClass": "EntradaDeTexto",
+					"sid": 884644310333563,
+					"parameters": {
+						"mode": "disabled"
+					}
+				},
+				{
+					"id": "rotate-clockwise",
+					"objectClass": "2Bits",
+					"sid": 417434175843399,
+					"parameters": {
+						"degrees": "90"
+					}
+				}
+			],
+			"sid": 708672161693429
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-text",
+					"objectClass": "EntradaDeTexto2",
+					"sid": 773365231175297,
+					"parameters": {
+						"text": "\"01\"",
+						"case": "case-insensitive"
+					}
+				},
+				{
+					"id": "trigger-once-while-true",
+					"objectClass": "System",
+					"sid": 959624639599454
+				}
+			],
+			"actions": [
+				{
+					"id": "add-to-eventvar",
+					"objectClass": "System",
+					"sid": 646144479860741,
+					"parameters": {
+						"variable": "Aciertos1",
+						"value": "1"
+					}
+				},
+				{
+					"id": "set-enabled",
+					"objectClass": "EntradaDeTexto2",
+					"sid": 465971377070572,
+					"parameters": {
+						"mode": "disabled"
+					}
+				},
+				{
+					"id": "rotate-clockwise",
+					"objectClass": "2Bits",
+					"sid": 864774231305288,
+					"parameters": {
+						"degrees": "90"
+					}
+				}
+			],
+			"sid": 121228081493749
+		}
+	],
+	"sid": 112287796862596
+}

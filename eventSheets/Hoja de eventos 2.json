@@ -27,6 +27,48 @@
 			"conditions": [],
 			"actions": [],
 			"sid": 280429319461495
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-clicked",
+					"objectClass": "Botón3",
+					"sid": 862613476845045
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-nextprevious-layout",
+					"objectClass": "System",
+					"sid": 643332179453783,
+					"parameters": {
+						"which": "previous"
+					}
+				}
+			],
+			"sid": 129009415862164
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-clicked",
+					"objectClass": "Botón4",
+					"sid": 822393930810426
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 872686738989953,
+					"parameters": {
+						"layout": "Pantalla Inicio"
+					}
+				}
+			],
+			"sid": 476079504351070
 		}
 	],
 	"sid": 982486593362046

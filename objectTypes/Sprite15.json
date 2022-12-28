@@ -1,0 +1,65 @@
+{
+	"name": "Sprite15",
+	"plugin-id": "Sprite",
+	"sid": 527407687975314,
+	"isGlobal": false,
+	"instanceVariables": [
+		{
+			"name": "Aciertos1",
+			"type": "number",
+			"desc": "",
+			"show": true,
+			"sid": 451586282881056
+		}
+	],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 960,
+						"height": 720,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"imageSpriteId": 270931,
+						"collisionPoly": {
+							"points": [
+								0.359375,
+								0.4791666666666667,
+								0.5,
+								0.4111111111111111,
+								0.6927083333333334,
+								0.4083333333333333,
+								0.9552083333333333,
+								0.5,
+								0.7239583333333334,
+								0.6319444444444444,
+								0.5,
+								0.6375,
+								0.30520833333333336,
+								0.5916666666666667,
+								0.036458333333333336,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 592788788805493,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

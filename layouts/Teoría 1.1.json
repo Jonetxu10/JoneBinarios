@@ -1,5 +1,5 @@
 {
-	"name": "Escena 2",
+	"name": "Teoría 1.1",
 	"layers": [
 		{
 			"name": "Capa 0",
@@ -19,7 +19,7 @@
 						"image-scale-y": 1,
 						"image-angle": 0
 					},
-					"uid": 7,
+					"uid": 39,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
@@ -48,7 +48,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 8,
+					"uid": 40,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
@@ -90,7 +90,7 @@
 						"initially-visible": true,
 						"origin": "top-left"
 					},
-					"uid": 9,
+					"uid": 41,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
@@ -132,7 +132,7 @@
 						"initially-visible": true,
 						"origin": "top-left"
 					},
-					"uid": 10,
+					"uid": 42,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
@@ -161,7 +161,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 11,
+					"uid": 43,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
@@ -182,7 +182,7 @@
 					}
 				},
 				{
-					"type": "Sprite3",
+					"type": "Teoría",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -190,14 +190,14 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 12,
+					"uid": 45,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 346,
-						"y": 195,
-						"width": 434,
-						"height": 247,
+						"x": 345,
+						"y": 194,
+						"width": 461,
+						"height": 289,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -211,7 +211,7 @@
 					}
 				},
 				{
-					"type": "Sprite5",
+					"type": "EJ1",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -219,14 +219,14 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 15,
+					"uid": 47,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 919,
-						"y": 658,
-						"width": 1570,
-						"height": 1154,
+						"x": 994,
+						"y": 647,
+						"width": 1981,
+						"height": 1323,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -240,7 +240,7 @@
 					}
 				},
 				{
-					"type": "Sprite6",
+					"type": "Sprite10",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -248,14 +248,14 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 16,
+					"uid": 61,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 172,
-						"y": 961,
-						"width": 396,
-						"height": 350,
+						"x": 1626,
+						"y": 464,
+						"width": 496.00000000000006,
+						"height": 387,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -269,7 +269,7 @@
 					}
 				}
 			],
-			"sid": 380108168836952,
+			"sid": 370709599284080,
 			"effectTypes": [],
 			"isInitiallyVisible": true,
 			"isInitiallyInteractive": true,
@@ -298,7 +298,7 @@
 			"global": false
 		}
 	],
-	"sid": 728675799897206,
+	"sid": 989955279103344,
 	"nonworld-instances": [],
 	"effectTypes": [],
 	"width": 3840,

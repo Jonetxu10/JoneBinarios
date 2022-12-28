@@ -1,5 +1,5 @@
 {
-	"name": "Escena 3",
+	"name": "Teoría 3",
 	"layers": [
 		{
 			"name": "Capa 0",
@@ -7,7 +7,7 @@
 			"subLayers": [],
 			"instances": [
 				{
-					"type": "FondoEnMosaico2",
+					"type": "FondoEnMosaico",
 					"properties": {
 						"initially-visible": true,
 						"origin": "top-left",
@@ -19,87 +19,14 @@
 						"image-scale-y": 1,
 						"image-angle": 0
 					},
-					"uid": 17,
+					"uid": 54,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 1,
-						"y": 0,
-						"width": 1921,
-						"height": 1080,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Botón",
-					"properties": {
-						"type": "button",
-						"text": "",
-						"tooltip": "",
-						"initially-visible": true,
-						"enabled": true,
-						"auto-font-size": true,
-						"checked": false,
-						"id": "",
-						"class": ""
-					},
-					"uid": 18,
-					"instanceVariables": {},
-					"behaviors": {},
-					"world": {
-						"x": 643,
-						"y": 669,
-						"width": 639,
-						"height": 139,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						]
-					}
-				},
-				{
-					"type": "Empezar",
-					"properties": {
-						"text": "VOLVER A EMPEZAR",
-						"enable-bbcode": true,
-						"font": "Arial",
-						"size": 42,
-						"line-height": 0,
-						"bold": false,
-						"italic": false,
-						"color": [
-							0.32941176470588235,
-							0.8627450980392157,
-							0.9725490196078431,
-							1
-						],
-						"horizontal-alignment": "center",
-						"vertical-alignment": "center",
-						"wrapping": "word",
-						"initially-visible": true,
-						"origin": "top-left"
-					},
-					"uid": 19,
-					"instanceVariables": {},
-					"behaviors": {},
-					"world": {
-						"x": 625,
-						"y": 685,
-						"width": 671,
-						"height": 121,
+						"x": -1,
+						"y": -1,
+						"width": 1936,
+						"height": 1098,
 						"originX": 0,
 						"originY": 0,
 						"color": [
@@ -121,14 +48,14 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 20,
+					"uid": 55,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 964,
-						"y": 359,
-						"width": 735,
-						"height": 893,
+						"x": 347,
+						"y": 184,
+						"width": 666,
+						"height": 503,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -144,10 +71,10 @@
 				{
 					"type": "NIVEL1",
 					"properties": {
-						"text": "HAS COMPLETADO\nTODOS LOS NIVELES,\n¡FELICIDADES!",
+						"text": " NIVEL3",
 						"enable-bbcode": true,
 						"font": "monospace",
-						"size": 45,
+						"size": 60,
 						"line-height": 0,
 						"bold": false,
 						"italic": false,
@@ -163,14 +90,14 @@
 						"initially-visible": true,
 						"origin": "top-left"
 					},
-					"uid": 21,
+					"uid": 56,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 630,
-						"y": 173,
-						"width": 682,
-						"height": 358,
+						"x": -17,
+						"y": -44,
+						"width": 673,
+						"height": 336,
 						"originX": 0,
 						"originY": 0,
 						"color": [
@@ -182,9 +109,138 @@
 						"angle": 0,
 						"zElevation": 0
 					}
+				},
+				{
+					"type": "Descripción",
+					"properties": {
+						"text": "Pasar de números decimales a números binarios",
+						"enable-bbcode": true,
+						"font": "monospace",
+						"size": 40,
+						"line-height": 0,
+						"bold": false,
+						"italic": false,
+						"color": [
+							0,
+							0,
+							0,
+							1
+						],
+						"horizontal-alignment": "center",
+						"vertical-alignment": "center",
+						"wrapping": "word",
+						"initially-visible": true,
+						"origin": "top-left"
+					},
+					"uid": 57,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 142,
+						"y": 385,
+						"width": 386,
+						"height": 337,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Teoría",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 59,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 345,
+						"y": 194,
+						"width": 461,
+						"height": 289,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Sprite9",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 58,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 1277,
+						"y": 630,
+						"width": 1499,
+						"height": 1172,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
+					"type": "Sprite10",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 60,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 246,
+						"y": 875,
+						"width": 496,
+						"height": 387,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
 				}
 			],
-			"sid": 821388906613089,
+			"sid": 656428934556239,
 			"effectTypes": [],
 			"isInitiallyVisible": true,
 			"isInitiallyInteractive": true,
@@ -213,7 +269,7 @@
 			"global": false
 		}
 	],
-	"sid": 448845687959978,
+	"sid": 711992851876780,
 	"nonworld-instances": [],
 	"effectTypes": [],
 	"width": 3840,
@@ -222,5 +278,5 @@
 	"vpX": 0.5,
 	"vpY": 0.5,
 	"projection": "perspective",
-	"eventSheet": "Hoja de eventos 1"
+	"eventSheet": "Hoja de eventos 2"
 }

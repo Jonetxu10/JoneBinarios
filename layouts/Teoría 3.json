@@ -40,7 +40,7 @@
 					}
 				},
 				{
-					"type": "Sprite",
+					"type": "Spritedeco",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -182,7 +182,7 @@
 					}
 				},
 				{
-					"type": "Sprite9",
+					"type": "tablateo5",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -211,7 +211,7 @@
 					}
 				},
 				{
-					"type": "Sprite10",
+					"type": "listo",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",

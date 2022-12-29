@@ -1,5 +1,5 @@
 {
-	"name": "Sprite14",
+	"name": "pr1",
 	"plugin-id": "Sprite",
 	"sid": 197966367902329,
 	"isGlobal": false,
@@ -13,8 +13,8 @@
 					{
 						"width": 960,
 						"height": 720,
-						"originX": 0.5,
-						"originY": 0.5,
+						"originX": 0.47291666666666665,
+						"originY": 0.41388888888888886,
 						"originalSource": "",
 						"exportFormat": "lossless",
 						"exportQuality": 0.8,
@@ -40,6 +40,23 @@
 							]
 						},
 						"useCollisionPoly": true,
+						"imagePoints": [
+							{
+								"name": "Punto imagen 1",
+								"x": 0.46979166666666666,
+								"y": 0.5069444444444444
+							},
+							{
+								"name": "Punto imagen 2",
+								"x": 0.4708333333333333,
+								"y": 0.6166666666666667
+							},
+							{
+								"name": "Punto imagen 3",
+								"x": 0.47291666666666665,
+								"y": 0.7263888888888889
+							}
+						],
 						"duration": 1
 					}
 				],

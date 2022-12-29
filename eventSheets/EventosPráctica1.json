@@ -34,22 +34,7 @@
 		},
 		{
 			"eventType": "block",
-			"conditions": [
-				{
-					"id": "compare-text",
-					"objectClass": "EntradaDeTexto",
-					"sid": 253282398381413,
-					"parameters": {
-						"text": "\"00\"",
-						"case": "case-insensitive"
-					}
-				},
-				{
-					"id": "trigger-once-while-true",
-					"objectClass": "System",
-					"sid": 656189774413596
-				}
-			],
+			"conditions": [],
 			"actions": [
 				{
 					"id": "add-to-eventvar",
@@ -59,22 +44,6 @@
 						"variable": "Aciertos1",
 						"value": "1"
 					}
-				},
-				{
-					"id": "set-enabled",
-					"objectClass": "EntradaDeTexto",
-					"sid": 884644310333563,
-					"parameters": {
-						"mode": "disabled"
-					}
-				},
-				{
-					"id": "rotate-clockwise",
-					"objectClass": "2Bits",
-					"sid": 417434175843399,
-					"parameters": {
-						"degrees": "90"
-					}
 				}
 			],
 			"sid": 708672161693429
@@ -82,15 +51,6 @@
 		{
 			"eventType": "block",
 			"conditions": [
-				{
-					"id": "compare-text",
-					"objectClass": "EntradaDeTexto2",
-					"sid": 773365231175297,
-					"parameters": {
-						"text": "\"01\"",
-						"case": "case-insensitive"
-					}
-				},
 				{
 					"id": "trigger-once-while-true",
 					"objectClass": "System",
@@ -105,14 +65,6 @@
 					"parameters": {
 						"variable": "Aciertos1",
 						"value": "1"
-					}
-				},
-				{
-					"id": "set-enabled",
-					"objectClass": "EntradaDeTexto2",
-					"sid": 465971377070572,
-					"parameters": {
-						"mode": "disabled"
 					}
 				},
 				{

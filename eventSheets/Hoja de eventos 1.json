@@ -50,7 +50,7 @@
 				},
 				{
 					"id": "set-visible",
-					"objectClass": "Sprite2",
+					"objectClass": "tablateo1",
 					"sid": 746456771694484,
 					"parameters": {
 						"visibility": "visible"

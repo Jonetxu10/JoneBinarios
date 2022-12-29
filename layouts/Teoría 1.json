@@ -40,7 +40,7 @@
 					}
 				},
 				{
-					"type": "Sprite",
+					"type": "Spritedeco",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -240,7 +240,7 @@
 					}
 				},
 				{
-					"type": "Sprite2",
+					"type": "tablateo1",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -269,7 +269,7 @@
 					}
 				},
 				{
-					"type": "Sprite4",
+					"type": "sabermás",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",

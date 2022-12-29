@@ -40,7 +40,7 @@
 					}
 				},
 				{
-					"type": "Sprite",
+					"type": "Spritedeco",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -182,7 +182,7 @@
 					}
 				},
 				{
-					"type": "Sprite3",
+					"type": "práctica",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -211,7 +211,7 @@
 					}
 				},
 				{
-					"type": "Sprite6",
+					"type": "volveratrás",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -269,7 +269,7 @@
 					}
 				},
 				{
-					"type": "Sprite8",
+					"type": "pr2",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -318,6 +318,37 @@
 						"y": 1031,
 						"width": 108,
 						"height": 35,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						]
+					}
+				},
+				{
+					"type": "Botón2",
+					"properties": {
+						"type": "button",
+						"text": ">>>",
+						"tooltip": "",
+						"initially-visible": true,
+						"enabled": true,
+						"auto-font-size": true,
+						"checked": false,
+						"id": "",
+						"class": ""
+					},
+					"uid": 82,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 1770,
+						"y": 1010,
+						"width": 101,
+						"height": 37,
 						"originX": 0,
 						"originY": 0,
 						"color": [

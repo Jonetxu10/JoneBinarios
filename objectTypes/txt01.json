@@ -1,0 +1,15 @@
+{
+	"name": "txt01",
+	"plugin-id": "Text",
+	"sid": 445477597717817,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "DragnDrop",
+			"name": "ArrastrarYSoltar",
+			"sid": 785729063006225
+		}
+	],
+	"effectTypes": []
+}

@@ -1,0 +1,201 @@
+{
+	"name": "Botones",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-clicked",
+					"objectClass": "Botón2",
+					"sid": 216293065779878
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-nextprevious-layout",
+					"objectClass": "System",
+					"sid": 184855756848756,
+					"parameters": {
+						"which": "next"
+					}
+				}
+			],
+			"sid": 362086416032066
+		},
+		{
+			"eventType": "block",
+			"conditions": [],
+			"actions": [],
+			"sid": 280429319461495
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-clicked",
+					"objectClass": "Botón3",
+					"sid": 862613476845045
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-nextprevious-layout",
+					"objectClass": "System",
+					"sid": 643332179453783,
+					"parameters": {
+						"which": "previous"
+					}
+				}
+			],
+			"sid": 129009415862164
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-clicked",
+					"objectClass": "Botón4",
+					"sid": 822393930810426
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 872686738989953,
+					"parameters": {
+						"layout": "Pantalla Inicio"
+					}
+				}
+			],
+			"sid": 476079504351070
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-clicked",
+					"objectClass": "Botón5",
+					"sid": 880737812825987
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 223635414113596,
+					"parameters": {
+						"layout": "Resultados 1"
+					}
+				}
+			],
+			"sid": 244129821908688
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-clicked",
+					"objectClass": "Botón6",
+					"sid": 551825586071449
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 827912302549287,
+					"parameters": {
+						"layout": "Práctica 1"
+					}
+				}
+			],
+			"sid": 902370572175556
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-clicked",
+					"objectClass": "Botón7",
+					"sid": 179294868649962
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 167472765602964,
+					"parameters": {
+						"layout": "Resultados 2"
+					}
+				}
+			],
+			"sid": 948484057444772
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-clicked",
+					"objectClass": "Botón8",
+					"sid": 899257863728855
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 109296760186460,
+					"parameters": {
+						"layout": "Práctica 2"
+					}
+				}
+			],
+			"sid": 856915423883282
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-clicked",
+					"objectClass": "Botón9",
+					"sid": 133009552835316
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 561326878150915,
+					"parameters": {
+						"layout": "Resultados 3"
+					}
+				}
+			],
+			"sid": 130170970706986
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-clicked",
+					"objectClass": "Botón10",
+					"sid": 790418026650908
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 644909670860157,
+					"parameters": {
+						"layout": "Práctica 3"
+					}
+				}
+			],
+			"sid": 358589661651533
+		}
+	],
+	"sid": 982486593362046
+}

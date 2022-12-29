@@ -283,8 +283,8 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 973,
-						"y": 563,
+						"x": 983,
+						"y": 559,
 						"width": 1809,
 						"height": 1190,
 						"originX": 0.47291666666666665,
@@ -572,6 +572,37 @@
 							1
 						]
 					}
+				},
+				{
+					"type": "Botón5",
+					"properties": {
+						"type": "button",
+						"text": "Comprobar resultados",
+						"tooltip": "",
+						"initially-visible": true,
+						"enabled": true,
+						"auto-font-size": true,
+						"checked": false,
+						"id": "",
+						"class": ""
+					},
+					"uid": 84,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 1708,
+						"y": 494,
+						"width": 144,
+						"height": 55,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						]
+					}
 				}
 			],
 			"sid": 380108168836952,
@@ -612,5 +643,5 @@
 	"vpX": 0.5,
 	"vpY": 0.5,
 	"projection": "perspective",
-	"eventSheet": "Hoja de eventos 2"
+	"eventSheet": "Botones"
 }

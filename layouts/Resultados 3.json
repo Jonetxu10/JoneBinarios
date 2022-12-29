@@ -1,5 +1,5 @@
 {
-	"name": "Teoría 2",
+	"name": "Resultados 3",
 	"layers": [
 		{
 			"name": "Capa 0",
@@ -19,7 +19,7 @@
 						"image-scale-y": 1,
 						"image-angle": 0
 					},
-					"uid": 14,
+					"uid": 112,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
@@ -48,7 +48,7 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 32,
+					"uid": 113,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
@@ -71,7 +71,7 @@
 				{
 					"type": "NIVEL1",
 					"properties": {
-						"text": " NIVEL2",
+						"text": "NIVEL3",
 						"enable-bbcode": true,
 						"font": "monospace",
 						"size": 60,
@@ -90,12 +90,12 @@
 						"initially-visible": true,
 						"origin": "top-left"
 					},
-					"uid": 33,
+					"uid": 114,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": -17,
-						"y": -44,
+						"x": 17,
+						"y": -49,
 						"width": 673,
 						"height": 336,
 						"originX": 0,
@@ -111,9 +111,38 @@
 					}
 				},
 				{
+					"type": "práctica",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 115,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 346,
+						"y": 195,
+						"width": 434,
+						"height": 247,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				},
+				{
 					"type": "Descripción",
 					"properties": {
-						"text": "Representación de números mediante cuatro bits",
+						"text": "Pasar de números decimales a números binarios",
 						"enable-bbcode": true,
 						"font": "monospace",
 						"size": 40,
@@ -132,14 +161,14 @@
 						"initially-visible": true,
 						"origin": "top-left"
 					},
-					"uid": 34,
+					"uid": 117,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 726,
-						"y": 78,
-						"width": 581,
-						"height": 195,
+						"x": 124,
+						"y": 386,
+						"width": 411,
+						"height": 376,
 						"originX": 0,
 						"originY": 0,
 						"color": [
@@ -153,7 +182,7 @@
 					}
 				},
 				{
-					"type": "2Bits",
+					"type": "Sprite4",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -161,14 +190,14 @@
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 35,
+					"uid": 116,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 1436,
-						"y": 158,
-						"width": 250,
-						"height": 250,
+						"x": 1241,
+						"y": 586,
+						"width": 1266,
+						"height": 940,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -182,126 +211,10 @@
 					}
 				},
 				{
-					"type": "Teoría",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 37,
-					"instanceVariables": {},
-					"behaviors": {},
-					"world": {
-						"x": 345,
-						"y": 194,
-						"width": 461,
-						"height": 289,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "2Bits",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 36,
-					"instanceVariables": {},
-					"behaviors": {},
-					"world": {
-						"x": 1645,
-						"y": 156,
-						"width": 250,
-						"height": 250,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "tablateo4",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 38,
-					"instanceVariables": {},
-					"behaviors": {},
-					"world": {
-						"x": 971,
-						"y": 652,
-						"width": 1919,
-						"height": 1324,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "listo",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 62,
-					"instanceVariables": {},
-					"behaviors": {},
-					"world": {
-						"x": 1740,
-						"y": 572,
-						"width": 370.00000000000006,
-						"height": 282,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Botón2",
+					"type": "Botón10",
 					"properties": {
 						"type": "button",
-						"text": ">>>",
+						"text": "Volver al ejercicio",
 						"tooltip": "",
 						"initially-visible": true,
 						"enabled": true,
@@ -310,14 +223,14 @@
 						"id": "",
 						"class": ""
 					},
-					"uid": 70,
+					"uid": 118,
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 1787,
-						"y": 673,
-						"width": 101,
-						"height": 37,
+						"x": 1582,
+						"y": 964,
+						"width": 290,
+						"height": 75,
 						"originX": 0,
 						"originY": 0,
 						"color": [
@@ -329,7 +242,7 @@
 					}
 				}
 			],
-			"sid": 410205535460407,
+			"sid": 365793631528020,
 			"effectTypes": [],
 			"isInitiallyVisible": true,
 			"isInitiallyInteractive": true,
@@ -358,7 +271,7 @@
 			"global": false
 		}
 	],
-	"sid": 337585419419115,
+	"sid": 137124556053904,
 	"nonworld-instances": [],
 	"effectTypes": [],
 	"width": 3840,

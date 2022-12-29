@@ -47,6 +47,14 @@
 			"bundled": false
 		},
 		{
+			"type": "plugin",
+			"id": "TextBox",
+			"name": "Entrada de texto",
+			"author": "Scirra",
+			"version": "r317.2",
+			"bundled": false
+		},
+		{
 			"type": "behavior",
 			"id": "DragnDrop",
 			"name": "Arrastrar y soltar",
@@ -97,7 +105,24 @@
 			"txt10",
 			"txt11",
 			"Sprite",
-			"Texto"
+			"Texto",
+			"Botón5",
+			"Sprite2",
+			"Botón6",
+			"EntradaDeTexto",
+			"EntradaDeTexto2",
+			"EntradaDeTexto3",
+			"EntradaDeTexto4",
+			"Botón7",
+			"Sprite3",
+			"Botón8",
+			"EntradaDeTexto5",
+			"EntradaDeTexto6",
+			"EntradaDeTexto7",
+			"EntradaDeTexto8",
+			"Botón9",
+			"Sprite4",
+			"Botón10"
 		],
 		"subfolders": []
 	},
@@ -117,14 +142,17 @@
 			"Práctica 2",
 			"Teoría 3",
 			"Práctica 3",
-			"Pantalla Fin"
+			"Pantalla Fin",
+			"Resultados 1",
+			"Resultados 2",
+			"Resultados 3"
 		],
 		"subfolders": []
 	},
 	"eventSheets": {
 		"items": [
 			"Hoja de eventos 1",
-			"Hoja de eventos 2",
+			"Botones",
 			"EventosPráctica1"
 		],
 		"subfolders": []

@@ -1,0 +1,20 @@
+{
+	"name": "txt00",
+	"plugin-id": "Text",
+	"sid": 814770881158523,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "DragnDrop",
+			"name": "ArrastrarYSoltar",
+			"sid": 828750674770631
+		},
+		{
+			"behaviorId": "Pin",
+			"name": "Pegado",
+			"sid": 566826768665351
+		}
+	],
+	"effectTypes": []
+}

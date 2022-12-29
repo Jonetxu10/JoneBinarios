@@ -40,7 +40,7 @@
 					}
 				},
 				{
-					"type": "Sprite",
+					"type": "Spritedeco",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -240,7 +240,7 @@
 					}
 				},
 				{
-					"type": "Sprite2",
+					"type": "tablateo1",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -269,7 +269,7 @@
 					}
 				},
 				{
-					"type": "Sprite4",
+					"type": "sabermás",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -295,6 +295,37 @@
 						],
 						"angle": 0,
 						"zElevation": 0
+					}
+				},
+				{
+					"type": "Botón2",
+					"properties": {
+						"type": "button",
+						"text": ">>>",
+						"tooltip": "",
+						"initially-visible": true,
+						"enabled": true,
+						"auto-font-size": true,
+						"checked": false,
+						"id": "",
+						"class": ""
+					},
+					"uid": 5,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 1792,
+						"y": 291,
+						"width": 101,
+						"height": 37,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						]
 					}
 				}
 			],
@@ -336,5 +367,5 @@
 	"vpX": 0.5,
 	"vpY": 0.5,
 	"projection": "perspective",
-	"eventSheet": "Hoja de eventos 2"
+	"eventSheet": "Botones"
 }

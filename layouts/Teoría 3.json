@@ -40,7 +40,7 @@
 					}
 				},
 				{
-					"type": "Sprite",
+					"type": "Spritedeco",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -182,7 +182,7 @@
 					}
 				},
 				{
-					"type": "Sprite9",
+					"type": "tablateo5",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -211,7 +211,7 @@
 					}
 				},
 				{
-					"type": "Sprite10",
+					"type": "listo",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -225,7 +225,7 @@
 					"world": {
 						"x": 246,
 						"y": 875,
-						"width": 496,
+						"width": 496.00000000000006,
 						"height": 387,
 						"originX": 0.5,
 						"originY": 0.5,
@@ -237,6 +237,37 @@
 						],
 						"angle": 0,
 						"zElevation": 0
+					}
+				},
+				{
+					"type": "Botón2",
+					"properties": {
+						"type": "button",
+						"text": ">>>",
+						"tooltip": "",
+						"initially-visible": true,
+						"enabled": true,
+						"auto-font-size": true,
+						"checked": false,
+						"id": "",
+						"class": ""
+					},
+					"uid": 71,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 324,
+						"y": 1005,
+						"width": 101,
+						"height": 37,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						]
 					}
 				}
 			],
@@ -278,5 +309,5 @@
 	"vpX": 0.5,
 	"vpY": 0.5,
 	"projection": "perspective",
-	"eventSheet": "Hoja de eventos 2"
+	"eventSheet": "Botones"
 }

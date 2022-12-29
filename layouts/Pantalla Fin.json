@@ -40,80 +40,7 @@
 					}
 				},
 				{
-					"type": "Botón",
-					"properties": {
-						"type": "button",
-						"text": "",
-						"tooltip": "",
-						"initially-visible": true,
-						"enabled": true,
-						"auto-font-size": true,
-						"checked": false,
-						"id": "",
-						"class": ""
-					},
-					"uid": 18,
-					"instanceVariables": {},
-					"behaviors": {},
-					"world": {
-						"x": 643,
-						"y": 669,
-						"width": 639,
-						"height": 139,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						]
-					}
-				},
-				{
-					"type": "Empezar",
-					"properties": {
-						"text": "VOLVER A EMPEZAR",
-						"enable-bbcode": true,
-						"font": "Arial",
-						"size": 42,
-						"line-height": 0,
-						"bold": false,
-						"italic": false,
-						"color": [
-							0.32941176470588235,
-							0.8627450980392157,
-							0.9725490196078431,
-							1
-						],
-						"horizontal-alignment": "center",
-						"vertical-alignment": "center",
-						"wrapping": "word",
-						"initially-visible": true,
-						"origin": "top-left"
-					},
-					"uid": 19,
-					"instanceVariables": {},
-					"behaviors": {},
-					"world": {
-						"x": 625,
-						"y": 685,
-						"width": 671,
-						"height": 121,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
-					"type": "Sprite",
+					"type": "Spritedeco",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -181,6 +108,37 @@
 						],
 						"angle": 0,
 						"zElevation": 0
+					}
+				},
+				{
+					"type": "Botón4",
+					"properties": {
+						"type": "button",
+						"text": "VOLVER A JUGAR",
+						"tooltip": "",
+						"initially-visible": true,
+						"enabled": true,
+						"auto-font-size": true,
+						"checked": false,
+						"id": "",
+						"class": ""
+					},
+					"uid": 18,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 693,
+						"y": 704,
+						"width": 542,
+						"height": 119,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						]
 					}
 				}
 			],
